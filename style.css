@@ -2,26 +2,27 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
-  color: #40514E;
+  color: #99627A;
+  background-color: #FDF4F5;
 }
 
 /* h1 {
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
-  color: #66BFBF;
+  color: #C88EA7;
 } */
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #66BFBF;
+  color: #E7CBCB;
   font-weight: normal;
   padding-bottom: 10px;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #11999E;
+  color: #E7CBCB;
 }
 
 p {
@@ -30,7 +31,7 @@ p {
 
 hr {
 
-  border: dotted #D2DDDD 6px;
+  border: dotted #99627A 6px;
   /* #EAF6F6 */
   border-bottom: none;
   width: 4%;
@@ -38,7 +39,7 @@ hr {
 }
 
 a {
-  color: #11999E;
+  color: #E7CBCB;
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
   text-decoration: none;
@@ -53,11 +54,11 @@ a {
 }
 
 a:hover {
-  color: #EAF6F6;
+  color: #99627A;
 }
 
 .top_contaner {
-  background-color: #E4F9F5;
+  background-color: #C88EA7;
   padding-top: 100px;
   position: relative;
 }
@@ -133,7 +134,7 @@ a:hover {
 }
 
 .bottom_container {
-  background-color: #66BFBF;
+  background-color: #C88EA7;
   padding: 50px 0 20px;
   line-height: 2;
 }
@@ -148,7 +149,7 @@ a:hover {
 .navbar {
   display: flex;
   justify-content: space-around;
-  background-color: #E4F9F5;
+  background-color: #C88EA7;
   padding: 1rem 0;
   position: sticky;
   top: 0;
@@ -157,7 +158,7 @@ a:hover {
 }
 
 .navbar a {
-  color: #11999E;
+  color: #E7CBCB;
   text-decoration: none;
   padding: 0.5rem 1rem;
   font-size: 1.1rem;
@@ -165,18 +166,18 @@ a:hover {
 }
 
 .navbar a:hover {
-  color: #66BFBF;
+  color: #C88EA7;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 0.3s, color 0.3s;
 }
 
 .contact_me_buttom {
-  background: #11999E;
-  background-image: -webkit-linear-gradient(top, #11999E, #11999E);
-  background-image: -moz-linear-gradient(top, #11999E, #11999E);
-  background-image: -ms-linear-gradient(top, #11999E, #11999E);
-  background-image: -o-linear-gradient(top, #11999E, #11999E);
-  background-image: -webkit-gradient(to bottom, #11999E, #11999E);
+  background: #E7CBCB;
+  background-image: -webkit-linear-gradient(top, #E7CBCB, #E7CBCB);
+  background-image: -moz-linear-gradient(top, #E7CBCB, #E7CBCB);
+  background-image: -ms-linear-gradient(top, #E7CBCB, #E7CBCB);
+  background-image: -o-linear-gradient(top, #E7CBCB, #E7CBCB);
+  background-image: -webkit-gradient(to bottom, #E7CBCB, #E7CBCB);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
@@ -185,7 +186,7 @@ a:hover {
   font-size: 20px;
   font-weight: 200;
   padding: 10px;
-  border: solid #119A9F 1px;
+  border: solid #99627A 1px;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -195,13 +196,13 @@ a:hover {
 }
 
 .contact_me_buttom:hover {
-  border: solid #66BFBF 1px;
-  background: #66BFBF;
-  background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
-  background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+  border: solid #99627A 1px;
+  background: #99627A;
+  background-image: -webkit-linear-gradient(top, #C88EA7, #C88EA7);
+  background-image: -moz-linear-gradient(top, #C88EA7, #C88EA7);
+  background-image: -ms-linear-gradient(top, #C88EA7, #C88EA7);
+  background-image: -o-linear-gradient(top, #C88EA7, #C88EA7);
+  background-image: -webkit-gradient(to bottom, #C88EA7, #C88EA7);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
